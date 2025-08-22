@@ -1,2 +1,2 @@
-# Foundation-exam-prep
-Preparing for ISTQB foundation
+# ISTQB Foundation
+
