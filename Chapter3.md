@@ -1,4 +1,4 @@
-# Summary of Chapter 2
+# Summary of Chapter 3
 ## Make sure you give at least one example for each K2 Level
 
 ---

@@ -209,7 +209,7 @@ Testing contributes to project and product success by:
 *Test Process is Context-Dependent (Test principle No. 6). Factors like SDLC, Risks, Deadlines, Regulations, Technology, Team skills, and Business prioritise influence how testing is planned, designed, and executed*
 
 ---
-### Learning Objective 1.4.3 Differentiate Testware that supports the Test Activities
+### Learning Objective 1.4.3 (k2) Differentiate Testware that supports the Test Activities
 
 
 **Testware**: *All the artifacts (documents, tools, scripts, data) created and used to support Testing*
@@ -277,7 +277,7 @@ Testing contributes to project and product success by:
 - *Test cases linke to requirements can be reused in Regression testing or future releases, makes maintaning and updating test much easier*
 
 ---
-### Learning Objective 1.4.5 Compare Diffferent Roles in Testing
+### Learning Objective 1.4.5 (k2) Compare Diffferent Roles in Testing
 
 
 | **Test Manager**         | **Tester**           |
@@ -293,7 +293,7 @@ Testing contributes to project and product success by:
 
 <h1 align="center">Essential Skills and Good Practices in Testing</h1>
 
-### Learning Objective 1.5.1 Give examples of Generic skills required in Testing
+### Learning Objective 1.5.1 (k2) Give examples of Generic skills required in Testing
 - **Analytical skills**
     - *Ability to understand complex systems, requirements, and workflows*
     - *Helps to identify what to test and where defects might hide*
@@ -314,7 +314,7 @@ Testing contributes to project and product success by:
 
 ---
 
-### Learning Objective 1.5.2 Recall advantages of the Whole Team Approach
+### Learning Objective 1.5.2 (k1) Recall advantages of the Whole Team Approach
 (1. ) *All responsible for quality*
 
 (2. ) *Share expertise and knowledge with the team*
@@ -331,7 +331,7 @@ Testing contributes to project and product success by:
 
 ---
 
-### Learning Objective 1.5.3 Distinguish the Benefits and Drawbacks of Independancy Testing
+### Learning Objective 1.5.3 (k2) Distinguish the Benefits and Drawbacks of Independancy Testing
 
 
 **Independence Testing**: *Refers to testing from different perspective*
