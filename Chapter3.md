@@ -7,7 +7,7 @@
 
 ### Learning Objective 3.1.1 (K1) Recognize types of products that can be examined by the different static test techniques
 
-**Static Testing**: *Is the reviewing of workproducts in order to find defects and gain understanding of what was required*
+**Static Testing**: *Is the reviewing of work products in order to find defects and gain understanding of what was required*
 
 **Conducted in three ways (*Techniques*)**:
 - **Manual** - Reviews *(Informal, Walkthroughs, Technical, and Inspections)*
@@ -43,9 +43,9 @@
 
 (1.) *Finds defects early = Cheaper to fix*
 
-(2.) *Prevents defects mooving through SDLC*
+(2.) *Prevents defects moving through SDLC*
 
-(3.) *Evaluates the quality of the workproduct*
+(3.) *Evaluates the quality of the work product*
 
 (4.) *Reduces development timescale & cost*
 
@@ -86,11 +86,11 @@
 
 <h1 align="center">Feedback and Review Process</h1>
 
-### Learning Objective 3.2.1 (K1) Identify the benefits of early and frequent stakeholer feedback
+### Learning Objective 3.2.1 (K1) Identify the benefits of early and frequent stakeholder feedback
 
 (1.) *Communicates quality problems*
 
-(2.) *Ensures the workproduct meets stakeholder expectations = stakeholder satisfaction achieved*
+(2.) *Ensures the work product meets stakeholder expectations = stakeholder satisfaction achieved*
 
 (3.) *Frequent communications with stakeholders ensures that their needs are understood*
 
@@ -108,7 +108,7 @@
 - *Scope of the review*
 
 (2.) **Initiation**
-- *Ensuring that everyone that is involved has the required workproduct and is prepared*
+- *Ensuring that everyone that is involved has the required work product and is prepared*
 
 (3.) **Individual Review**
 - *Reviewers perform individual reviews to identify anomalies, make recommendations, and draft questions*
@@ -125,7 +125,7 @@
 
 (1.) **Manager** - *Decides what need to be reviewed and provides the resources*
 
-(2.) **Author** - *Creates and fixes the workproduct under review*
+(2.) **Author** - *Creates and fixes the work product under review*
 
 (3.) **Moderator/Facilitator** - *Ensures the effective running of meetings*
 

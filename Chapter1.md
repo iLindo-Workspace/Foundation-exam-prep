@@ -35,21 +35,21 @@
 (6. ) **Verify whether the test object complies with legal, contractual, and regulatory requirements**
 - *Ensure legal, safety and standards are satisfied. System & Acceptance Testing*
 
-(7. ) **Provide information to stakeholeders to allow them to make informed decisions**
+(7. ) **Provide information to stakeholders to allow them to make informed decisions**
 - *Report progress, risks, and quality metrics to stakeholders. Test Progress Report* 
 
 (8. ) **Build confidence in the quality of the test object**
 - *Show through repeated successful test that the product is ready. Test Execution, Test Reporting*
 
 (9. ) **Validate that the test object is complete and works as expected by the stakeholders**
-- *Confirm system completness and user expecttions are met. System & Acceptance Testing*
+- *Confirm system completeness and user expectations are met. System & Acceptance Testing*
 
 
 ---
 
 ### Learning Objective 1.1.2 (k2) Differentiate Testing from Debugging
 - *Testing generates failures in the software caused by defects in the code.*
-- *Debugging is the process of finding root cause of the defect, analyse it, and fix it.*
+- *Debugging is the process of finding root cause of the defect, analyze it, and fix it.*
 
 
 #### Process encapsulating both Testing and Debugging
@@ -84,9 +84,9 @@ Testing contributes to project and product success by:
 - **Reputation damage** → Poor quality releases reduce customer trust and damage the brand.  
 
 ---
-### Learning Objective 1.2.2 (k1) Recall the ralation between Testing and Quality Assurance
+### Learning Objective 1.2.2 (k1) Recall the relation between Testing and Quality Assurance
 
-**Quality Mangement** = *Quality Assurance + Quality Control (**This is where Testing is**)*
+**Quality Management** = *Quality Assurance + Quality Control (**This is where Testing is**)*
 
 - **QA** - is Proactive, focuses on the processes use to develop the product with a goal of preventing defects(through training, standards, guidelines, documentations). Happens before and during development
 - **QC** - is Reactive, product oriented, checks for the level of quality and if the product is working as expected (through testing reviews, inspections).
@@ -111,12 +111,12 @@ Testing contributes to project and product success by:
 
 <h1 align="center">Testing Principles</h1>
 
-### Learning Objective 1.3.1 (k2) Explain the Sevent Testing Principles
+### Learning Objective 1.3.1 (k2) Explain the Seven Testing Principles
 (1. ) **Testing shows presence of defects, not their absence**
 - Testing proves that bugs do exist, but it can never prove that **NO** bugs exist
 
 (2. ) **Exhaustive Testing is impossible**
-- You cannot test everything (all inputs, combinations, paths), insted focus your test on priorities, risks, and critical areas
+- You cannot test everything (all inputs, combinations, paths), instead focus your test on priorities, risks, and critical areas
 
 (3. ) **Early testing saves time and money**
 - The earlier the defect is found in the SDLC the Cheaper it is to fix
@@ -190,23 +190,23 @@ Testing contributes to project and product success by:
     - *Waterfall - Testing is done on the later stage, and has heavy documentation*
     - *Agile - Testing is continuous, and lighter documentation*
 - **Project/Product Risk**
-    - *High-risk systems like (Banking, Aviation, Medical) require regorous testing*
+    - *High-risk systems like (Banking, Aviation, Medical) require rigorous testing*
     - *Low-risk system like games, websites may need only just basic Functional Testing*
-- **Time & Budget Constraits**
+- **Time & Budget Constraints**
     - *When deadlines are tight, we use Risk-Based Testing, focus on critical features first*
     - *When Budget is high, broader coverage, more automation, performance testing*
 - **Business & Regulatory Requirements**
     - *Some domains (finance, health, government) require compliance with legal or safety standards*
 - **Technology & Tools Used**
-    - *Testing differes for Web apps, Mobile apps, Embedded systems, Cloud Systems
-- **Team skils & Experience**
-    - *More experienced testers can design exploraory tests, automation, performance*
+    - *Testing differs for Web apps, Mobile apps, Embedded systems, Cloud Systems
+- **Team skis & Experience**
+    - *More experienced testers can design exploratory tests, automation, performance*
     - *Junior team may rely more on checklist and pre-written scripts*
 - **Stakeholders**
-    - *If customer cares more about perfomance - Load/Stress testing emphasized*
+    - *If customer cares more about performance - Load/Stress testing emphasized*
     - *If the care more about UX - Usability testing is emphasized*
 
-*Test Process is Context-Dependent (Test principle No. 6). Factors like SDLC, Risks, Deadlines, Regulations, Technology, Team skills, and Business prioritise influence how testing is planned, designed, and executed*
+*Test Process is Context-Dependent (Test principle No. 6). Factors like SDLC, Risks, Deadlines, Regulations, Technology, Team skills, and Business priorities influence how testing is planned, designed, and executed*
 
 ---
 ### Learning Objective 1.4.3 (k2) Differentiate Testware that supports the Test Activities
@@ -268,13 +268,13 @@ Testing contributes to project and product success by:
 - *Defects can be traced back to the requirement or test case that revealed it*
 
 (4. ) **Provides audit & Compliance Evidence**
-- *Especially important for regulated industries, traceability prooves that all requirements where tested and defects are handled*
+- *Especially important for regulated industries, traceability proves that all requirements where tested and defects are handled*
 
 (5. ) **Facilitates Reporting and Decision Making**
 - *Test Managers and Stakeholders can see test progress status*
 
 (6. ) **Helps reuse and Maintenance**
-- *Test cases linke to requirements can be reused in Regression testing or future releases, makes maintaning and updating test much easier*
+- *Test cases linked to requirements can be reused in Regression testing or future releases, makes maintaining and updating test much easier*
 
 ---
 ### Learning Objective 1.4.5 (k2) Compare Diffferent Roles in Testing
@@ -327,11 +327,11 @@ Testing contributes to project and product success by:
 
 (5. ) *Leverage skills/experience*
 
-(6. ) *Sometimes high level of independancy*
+(6. ) *Sometimes high level of independency*
 
 ---
 
-### Learning Objective 1.5.3 (k2) Distinguish the Benefits and Drawbacks of Independancy Testing
+### Learning Objective 1.5.3 (k2) Distinguish the Benefits and Drawbacks of Independency Testing
 
 
 **Independence Testing**: *Refers to testing from different perspective*

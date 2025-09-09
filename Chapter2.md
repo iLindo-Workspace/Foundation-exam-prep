@@ -97,7 +97,7 @@
 **Shift-Left** - *means moving test activities earlier in the SDLC*
 
 **Practices**
-(1. ) **Review for Testibility**
+(1. ) **Review for Testability**
 - *Analyze requirements, designs, user stories before coding to ensure they can be tested effectively*
 
 (2. ) **Test cases before Coding**
