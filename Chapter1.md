@@ -199,7 +199,7 @@ Testing contributes to project and product success by:
     - *Some domains (finance, health, government) require compliance with legal or safety standards*
 - **Technology & Tools Used**
     - *Testing differs for Web apps, Mobile apps, Embedded systems, Cloud Systems
-- **Team skis & Experience**
+- **Team skills & Experience**
     - *More experienced testers can design exploratory tests, automation, performance*
     - *Junior team may rely more on checklist and pre-written scripts*
 - **Stakeholders**
@@ -216,7 +216,7 @@ Testing contributes to project and product success by:
 
 (1. ) **Test Planning**
 - *Test Plan*
-- *Risk Analysis Report*
+- *Risk Analysis Report/Risk Register*
 - *Schedule and Resource Plan*
 
 (2. ) **Test Monitoring & Control**
@@ -237,7 +237,7 @@ Testing contributes to project and product success by:
 - *Automated/Manual test scripts*
 - *Test Suites*
 - *Environment setup scripts*
-- Test Execution Schedule*
+- *Test Execution Schedule*
 
 (6. ) **Test Execution**
 - *Test Logs(Results of each test run)*
@@ -343,7 +343,7 @@ Testing contributes to project and product success by:
 - *The person who wrote the code is less likely to spot their own mistakes*
 
 (2. ) **Fresh Perspective**
-- *Independent tester may notice different defects that developers*
+- *Independent tester may notice different defects than developers*
 
 (3. ) **Challenge Assumption**
 - They can question requirements, designs, and implementations that developers might take for granted

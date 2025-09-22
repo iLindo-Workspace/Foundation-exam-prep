@@ -106,6 +106,10 @@
 
 (1.) **Planning**
 - *Scope of the review*
+- *Objectives of the review*
+- *Work product to be reviewed*
+- *Quality characteristics to be evaluated*
+- *Timeframes are defined*
 
 (2.) **Initiation**
 - *Ensuring that everyone that is involved has the required work product and is prepared*
@@ -140,7 +144,7 @@
 ### Learning Objective 3.2.4 (K2) Compare and Contrast the different review types
 
 (1.) **Informal Review**
-- *Don' follow defined process*
+- *Don't follow defined process*
 - *Don't require formal documentation output*
 - *Objective is to identify anomalies*
 

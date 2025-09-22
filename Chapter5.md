@@ -34,15 +34,16 @@
 
 |           **Release Planning**        |            **Iteration Planning**             |
 |---------------------------------------|-----------------------------------------------|
+|Release of Product                     | Single Iteration (Sprint)                     |
 |Define/Re-define product backlog       | Iteration Backlog participation               |
-|Test approach definitions              | Iteration planning and activities             |
-|Refine user stories                    | Detailed Risk analysis                        |
-|Provide basis for Test Approach        | Ensure testability of User stories            |
-|Create Test plan for all iterations    | Refine Stories to Task                        |
-|Define acceptance criteria             | Estimate Test effort (TAsk Level)             |
-|Project/Product Risk analysis          | Identify Non-Functional Characteristics       |
-|Estimate Test effort                   |                                               |
-
+|Create Test plan for all iterations    | Iteration planning and activities             |
+|Project/Product Risk analysis          | Detailed Risk analysis                        |
+|Write Testable User Stories            | Ensure testability of User stories            |
+|Refine user stories                    | Refine Stories to Task                        |
+|Estimate Test effort                   | Estimate Test effort (Task Level)             |
+|Test approach definitions              | Identify Non-Functional Characteristics       |
+|Provide basis for Test Approach        |                                               |
+|Define acceptance criteria             |                                               |
 
 ---
 
@@ -112,6 +113,19 @@
 
 **The Test Pyramid is a visual metaphor that helps teams structure their automated testing strategy. It emphasizes having more low-level, fast, and reliable tests and fewer high-level, slow, and brittle tests.**
 
+(1.) **UI/E-to-E Tests** - *1% - 5%*
+
+(2.) **Integration Tests** - *5% - 15%*
+
+(3.) **Unit Tests** - *80% - 90%*
+
+                                            /\
+                                           /  \
+                                          /____\  -> 1
+                                         /      \
+                                        /________\  -> 2
+                                       /          \
+                                      /____________\ -> 3
 
 | **Layer**         | **Description**                                 | **Example**                    |
 |-------------------|-------------------------------------------------|--------------------------------|
@@ -190,7 +204,7 @@
 
 (1.) **Project Risks**
 - *Impact Testing Service Delivery, Test Schedule/Budget/Scope*
-- *Prevents Testing from Tsking place*
+- *Prevents Testing from Taking place*
 - *Causes Testing to take longer than planned*
 - *Includes*
     - *Organizational issues*
@@ -216,7 +230,6 @@
 
 - *Coverage*
 - *Scope*
-- *Types and Levels of Testing*
 - *Type of Design Technique*
 - *Level of Testing*
 - *Type of Testing*
@@ -245,24 +258,113 @@
 
 ### Learning Objective 5.3.1 (K1) Recall metrics used for testing
 
+(1.) **Project Progress Metrics** - (*Task Completion, Resource Usage, test effort*)
 
+(2.) **Test Progress Metrics** - (*Test implementation Progress, Test Environment implementation progress, Number of Testcases run divided by number of Testcase not run, Number of Passed Testcases divide by Number of failed Test cases, Test execution time*)
+
+(3.) **Product Quality Metrics** - (*Availability, response time, mean time to failure*)
+
+(4.) **Defects Metrics** - (*Number and Priorities of Defects found divided by the Number of fixed defects, Defect density, Defect Detection Percentage*)
+
+(5.) **Risk Metrics** - (*Residual Risk level*)
+
+(6.) **Coverage Metrics** - (*Requirements coverage, Code coverage*)
+
+(7.) **Cost Metrics** - (*Cost of testing, Organizational cost of quality*)
 
 --- 
 
 ### Learning Objective 5.3.2 (K2) Summarize the purposes, content, and audiences for test reports
+
+                                         Test Reports
+                                        /            \
+                                       /              \
+    Test Monitoring & Control <- Test Progress      Test Summary -> Test Completion Activity
+
+<span style="color:green; font-weight:bold;">N.B</span> Purpose of Test reports is to Communicate test information during (Progress) and after (Summary) Testing.
+
+(1.) **Test Progress Reports** - (*Regular updates (daily/weekly/etc) that shows how testing is going while it's happening*)
+
+- **Contents**
+    - **Test Period** - (*Timeframe covered*)
+    - **Actual Progress** - (*On track, ahead, or behind*)
+    - **Impediments** - (*Blockers that the team faced and how they were handled*)
+    - **Test Metrics** - (*Number of test executed, Passed/Failed, Defect density*)
+    - **New/Changed Risks** 
+    - **Testing planned for the next period** - (*What will be tested in the upcoming report cycle*)
+
+(2.) **Test Summary Reports** - (*Created at the end of testing cycle project and give an overall evaluation of testing outcomes*)
+
+- **Contents**
+    - **Summary** - (*Overall of what wa tested, scope, results*)
+    - **Evaluation of Testing + Quality against PLAN** 
+    - **Deviations from Test Plan (Strategy)**
+    - **Impediments (On workarounds)**
+    - **Test Metrics** - (*Based/summarized progress reports*)
+    - **Residual/Unmitigated Risks, Defects not fixed**
+    - **Lesson learned for testing improvement** 
 
 ---
 
 
 ### Learning Objective 5.3.3 (K2) Exemplify how to communicate the status of testing 
 
+(1.) **Verbal** - (*Team members, Stakeholders (daily stand-ups)*)
+
+(2.) **Dashboards** - (*CI/CD dashboards, task boards, burn-down charts*)
+ 
+(3.) **Electronic** - (*Email, Chat, Conference*)
+
+(4.) **Online Documentation**
+
+(5.) **Formal Reports** - (*Test Progress/Test Summary*)
+
+
 ---
 
 <h1 align="center">Configuration Management</h1> 
 
 ### Learning Objective 5.4.1 (K2) Summarize how configuration management supports testing
+
+
+**Configuration Management** - *Helps testing by ensuring consistency, traceability, and control of test artifacts, code, and environment throughout SDLC.*
+
+(1.) **Referential Integrity & Traceability** - *CM links Requirements -> Design -> Code -> Test Cases -> Results*
+
+(2.) **Version Control** - *Reduces confusion when multiple versions exists*
+
+(3.) **Change Tracking & Impact Analysis** - *When code or requirements changes, CM is able to identify test cases that are impacted. Helps testers to re-run or update the necessary tests*
+
+(4.) **Test Planning Integration** - *CM practices are initiated in test planning, ensuring the right basis is defined and managed from the start*
+
+(5.) **CI/CD & DevOps** - *Ensuring repeatable stable environment for automated regression testing*
+
 ---
 
 <h1 align="center">Defect Management</h1> 
 
 ### Learning Objective 5.5.1 (K3) Prepare a defect report 
+
+**Defect report** - *Provides those responsible for resolving defects with* **sufficient information** *to resolve the issue. They also provide the means to* **track the quality** *of the work products. Offer* **insights** *for improvement of the development and test process*
+
+
+- **Structure**
+    - **Defect ID** - (*Uniquely Identifies the defect logged*)
+    - **Title Summary** - (*Short description of the defect*)
+    - **Date Reported** - (*When the defect was logged*)
+    - **Reported By** - (*Author/Role(Tester,Dev)*)
+    - **Issuing Organization** - (*Which team or company found the defect*)
+    - **Test Object** - (*Item under test (module, feature)*)
+    - **Test environment** - (*OS, Browser, Build number*)
+    - **Context of Defect:**
+        - **Test Case ID**
+        - **Test Activity** (*function, regression, exploratory, etc*) 
+        - **SDLC Phase** 
+        - **Test Technique**
+        - **Test Data**
+    - **Steps to Reproduce** - (*Step-by-step actions*)
+    - **Expected Results** - (*What should happen*)
+    - **Actual Results** - (*What actually happens*)
+    - **Severity** - (*Impact on the system (Critical, Major, Minor)*)
+    - **Status** - (*New, Open, Fixed, Retest, Closed, Deferred*)
+    - **References** - (*Related Requirements, Design Docs, or Test Cases*)

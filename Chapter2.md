@@ -47,12 +47,14 @@
 ### Learning Objective 2.1.3 (K1) Recall examples of test-first approaches in development
 
 (1. ) **Test-Driven Development Approach** - *Focuses on unit level (developer tests)*
+- **Direct code through test cases**
 - **Process** → RED - GREEN - REFACTOR :
     - Write Test first (but will fail since there's no code to test) <span style="color:red; font-weight:bold;">RED</span> 
     - Developer writes minimum code to make test pass <span style="color:green; font-weight:bold;">GREEN</span> 
     - Refactor the code (clean it up, improve design) while keeping test passing  <span style="color:orange; font-weight:bold;">REFACTOR</span> 
 
 (2. ) **Acceptance Test-Driven Development Approach** - *Focuses on Customer/Business Acceptance criteria*
+- **Test cases are created based on Acceptance Criteria**
 - **Process**:
     - *3 Amigos (BA's, Devs, Testers) meet and define Acceptance Criteria before code*
     - *Coding is developed until acceptance criteria test is passed*
@@ -79,7 +81,7 @@
 - *Testing is build into pipelines to provide immediate feedback on code changes*
 
 (4. ) **Integrated Tool**
-- *Test tools are integrated with DevOps toolchains*
+- *Test tools are integrated with DevOps tool chains*
 
 (5. ) **CI/CD**
 - **Requires**:
@@ -97,6 +99,7 @@
 **Shift-Left** - *means moving test activities earlier in the SDLC*
 
 **Practices**
+
 (1. ) **Review for Testability**
 - *Analyze requirements, designs, user stories before coding to ensure they can be tested effectively*
 
@@ -160,6 +163,7 @@
 - "Works as required"
 
 (4. ) **White-Box** - *Structural testing*
+- *Derives test cases from the systems implementation or internal structure*
 - *Thoroughness - Coverage*:
     - *Statement/Decision Coverage*
     - *Component/Modules/Units coverage*
@@ -186,4 +190,4 @@
 - **Triggers**:
     - Modification - *Any enhancements, corrective and emergency fixes (hardware, software, middleware, OS)*
     - Migration - *From one platform to another, it can be system or data*
-    - Retirement - *Phasing out of a system
+    - Retirement - *Phasing out of a system*
